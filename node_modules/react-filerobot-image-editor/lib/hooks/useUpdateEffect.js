@@ -1,0 +1,1 @@
+import{useEffect,useRef}from"react";var useUpdateEffect=function(a,b){var c=useRef(!0);useEffect(function(){return function(){c.current=!0}},[]),useEffect(function(){if(c.current)c.current=!1;else if("function"==typeof a)return a()},b)};export default useUpdateEffect;

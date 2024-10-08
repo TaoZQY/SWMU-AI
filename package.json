@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "filerobot-image-editor": "^4.8.1",
+    "image-cropper": "^1.0.1"
+  }
+}

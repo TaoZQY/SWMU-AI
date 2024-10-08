@@ -1,0 +1,471 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 页面容器样式 */
+.container.data-v-57280228 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* 使内容垂直居中 */
+  height: 100vh;
+  /* 占满视口高度 */
+  padding: 20px;
+  /* 根据需要调整内边距 */
+  box-sizing: border-box;
+  /* 让 padding 影响到总宽度和高度 */
+  /* 将容器从底部上移到屏幕中央 */
+}
+/* 上传按钮样式 */
+.upload-button.data-v-57280228 {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #007aff;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+/* 图片和RGB信息容器样式 */
+.images-container.data-v-57280228 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  overflow-x: hidden;
+  /* Prevent horizontal scrolling */
+  max-height: calc(100vh - 100px);
+  /* Adjust the max height to prevent overflow */
+}
+/* 单张图片容器样式 */
+.image-wrapper.data-v-57280228 {
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 100%;
+  /* Ensure the wrapper doesn't exceed container width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center content horizontally */
+}
+/* 操作按钮容器样式 */
+.action-buttons.data-v-57280228 {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+/* 操作按钮样式 */
+.action-button.data-v-57280228 {
+  margin-bottom: 5px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+  padding: 5px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.delete-button.data-v-57280228 {
+  color: #ff4d4f;
+}
+.save-button.data-v-57280228 {
+  color: #52c41a;
+}
+/* RGB 信息和 Water Fraction 样式 */
+.rgb-info.data-v-57280228 {
+  margin-top: 10px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* RGB 值上下排列并居中 */
+.rgb-values.data-v-57280228 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 5px;
+}
+/* Water Fraction 样式 */
+.fraction-value.data-v-57280228 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* 选择溶液类型样式 */
+.picker.data-v-57280228 {
+  margin: 20px;
+  padding: 15px 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  color: #ff3503;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+

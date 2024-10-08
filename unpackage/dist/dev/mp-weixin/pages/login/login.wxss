@@ -1,0 +1,44 @@
+
+.login-container.data-v-b237504c {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+.logo-container.data-v-b237504c {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  /* Logo与表单输入框之间的间距 */
+}
+.logo.data-v-b237504c {
+  width: 100px;
+  /* 设置Logo的宽度 */
+}
+.form.data-v-b237504c {
+  width: 80%;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.input.data-v-b237504c {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.login-button.data-v-b237504c {
+  width: 100%;
+  padding: 10px;
+  background-color: #4f75ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
